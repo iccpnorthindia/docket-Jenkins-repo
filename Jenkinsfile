@@ -2,7 +2,7 @@ pipeline {
 
     agent any
     
-    stage {
+    stages {
     
         stage("build") {
         
@@ -28,5 +28,6 @@ pipeline {
             echo 'Deploy a iccp application.....'
           }
     }
+            }
  }
  
