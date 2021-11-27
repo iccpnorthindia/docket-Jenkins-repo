@@ -6,7 +6,7 @@ pipeline {
     
         stage("build") {
         
-          stap {
+          staps {
             echo 'build a iccp application.....'
           }
     }
@@ -15,7 +15,7 @@ pipeline {
     
         stage("Test") {
         
-          stap {
+          staps {
             echo 'Test a iccp application.....'
           }
     }
@@ -24,7 +24,7 @@ pipeline {
     
         stage("Deploy") {
         
-          stap {
+          staps {
             echo 'Deploy a iccp application.....'
           }
     }
