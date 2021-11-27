@@ -1,32 +1,22 @@
 pipeline {
-
     agent any
-    
     stages {
-    
         stage("build") {
-        
-          staps {
+            staps {
             echo 'build a iccp application.....'
-          }
+            }
         }
-    
-    stage {
-    
-        stage("Test") {
         
-          staps {
+        stage("Test") { 
+            staps {
             echo 'Test a iccp application.....'
-          }
-        }
-    
-    stage {
-    
-        stage("Deploy") {
-        
-          staps {
+            }
+        }    
+       
+        stage("Deploy") {    
+            staps {
             echo 'Deploy a iccp application.....'
-          }
+            }
         }
     }
 }
