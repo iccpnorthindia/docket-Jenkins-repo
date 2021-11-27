@@ -9,7 +9,7 @@ pipeline {
           staps {
             echo 'build a iccp application.....'
           }
-    }
+        }
     
     stage {
     
@@ -18,7 +18,7 @@ pipeline {
           staps {
             echo 'Test a iccp application.....'
           }
-    }
+        }
     
     stage {
     
@@ -27,7 +27,7 @@ pipeline {
           staps {
             echo 'Deploy a iccp application.....'
           }
+        }
     }
-    }
- }
+}
  
