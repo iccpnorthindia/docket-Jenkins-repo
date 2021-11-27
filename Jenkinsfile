@@ -28,6 +28,6 @@ pipeline {
             echo 'Deploy a iccp application.....'
           }
     }
-            }
+    }
  }
  
