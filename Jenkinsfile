@@ -1,6 +1,11 @@
 pipeline {
     agent any
     stages {
+        stage("Pull") { 
+            steps {
+                echo 'Test a iccp application.....'
+            }
+        }    
         stage("build") {
             steps {
                 echo 'build a iccp application.....'
@@ -13,7 +18,7 @@ pipeline {
             }
         }    
        
-        stage("Deploy") {    
+        stage("Deploy-Push") {    
             steps {
                 echo 'Deploy a iccp application.....'
             }
