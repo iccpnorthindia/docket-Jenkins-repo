@@ -18,7 +18,7 @@ pipeline {
             }
         }    
        
-        stage("Deploy-Push") {    
+        stage("Deploy-aditya-Push") {    
             steps {
                 echo 'Deploy a iccp application.....'
             }
